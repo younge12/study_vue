@@ -2,7 +2,11 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/databinding">Data Binding</router-link>
+    <router-link to="/db">Data Binding</router-link> |
+    <router-link to="/dbfor">V-For</router-link> |
+    <router-link to="/dbif">V-If</router-link> |
+    <router-link to="/dbon">V-On</router-link> |
+    <router-link to="/computed">Computed</router-link>
   </nav>
   <router-view/>
 </template>
