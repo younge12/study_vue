@@ -6,7 +6,8 @@
     <router-link to="/dbfor">V-For</router-link> |
     <router-link to="/dbif">V-If</router-link> |
     <router-link to="/dbon">V-On</router-link> |
-    <router-link to="/computed">Computed</router-link>
+    <router-link to="/computed">Computed</router-link> |
+    <router-link to="/dbbindinglist2">DBBindingList2</router-link>
   </nav>
   <router-view/>
 </template>

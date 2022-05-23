@@ -5,6 +5,7 @@ import DBFor from '../views/DBFor.vue'
 import DBIf from '../views/DBIf.vue'
 import DBOn from '../views/DBOn.vue'
 import Computed from '../views/Computed.vue'
+import DBBindingList2 from '../views/DBBindingList2.vue'
 
 const routes = [
   {
@@ -44,6 +45,11 @@ const routes = [
     path: '/computed',
     name: 'Computed',
     component: Computed
+  },
+  {
+    path: '/dbbindinglist2',
+    name: 'DBBindingList2',
+    component: DBBindingList2
   }
 ]
 
