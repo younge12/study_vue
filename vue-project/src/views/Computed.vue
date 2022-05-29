@@ -41,7 +41,14 @@ export default {
         listName(){
             this.fullName = this.firstName + '' + this.lastName;
         }
-    }
+    },
+    // mixins:[mixins],
+    // mounted(){
+    //     console.log('컴포넌트 mounted')
+    // },
+    // unmounted(){
+    //     console.log('컴포넌트 unmounted')
+    // }
 }
 </script>
 <style scoped>
