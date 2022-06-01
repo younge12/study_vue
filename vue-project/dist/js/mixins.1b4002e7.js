@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[295],{5277:function(t,c,a){a.r(c),a.d(c,{default:function(){return r}});var s=a(6265),e=a.n(s),o={methods:{async $callAPI(t,c,a){return(await e()({method:c,url:t,data:a}).catch((t=>{console.log(t)}))).data}}},n={mixins:[o],data(){return{productList:[]}},async mounted(){this.productList=await this.$callAPI("https://c80959ba-0f67-43c9-83fe-5ba06d4cc0ba.mock.pstmn.io/list","get"),console.log(this.productList)}};const u=n;var r=u}}]);
+//# sourceMappingURL=mixins.1b4002e7.js.map

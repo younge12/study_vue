@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[849],{6117:function(t,n,e){e.r(n),e.d(n,{default:function(){return s}});var u=e(3396);function c(t,n,e,c,r,i){return(0,u.wg)(),(0,u.iD)("button",{type:"button",onClick:n[0]||(n[0]=(...t)=>i.childFunc&&i.childFunc(...t)),ref:"btn"},"자식 컴포넌트 데이터 변경",512)}var r={data(){return{msg:"메시지"}},methods:{childFunc(){this.msg="변경된 메세지"}}},i=e(89);const o=(0,i.Z)(r,[["render",c]]);var s=o}}]);
+//# sourceMappingURL=cc5.1f68c7e8.js.map

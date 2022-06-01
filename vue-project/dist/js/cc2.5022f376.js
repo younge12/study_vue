@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[168],{6780:function(t,e,r){r.r(e),r.d(e,{default:function(){return l}});var n=r(3396);function c(t,e,r,c,u,a){return(0,n.wg)(),(0,n.iD)("button",{type:"button",onClick:e[0]||(e[0]=(...t)=>a.callFromParent&&a.callFromParent(...t)),ref:"btn2"},"Click02",512)}var u={methods:{callFromParent(){alert("부모 컴포넌트에서 직접 호출한 함수")}}},a=r(89);const o=(0,a.Z)(u,[["render",c]]);var l=o}}]);
+//# sourceMappingURL=cc2.5022f376.js.map

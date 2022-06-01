@@ -1,34 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DB from '../views/DB.vue'
-import DBFor from '../views/DBFor.vue'
-import DBIf from '../views/DBIf.vue'
-import DBOn from '../views/DBOn.vue'
-import Computed from '../views/Computed.vue'
-import DBBindingList2 from '../views/DBBindingList2.vue'
-import NC from '../views/NC.vue'
-import CC from '../views/CC.vue'
-import PC from '../views/PC.vue'
-import CC2 from '../views/CC2.vue'
-import PC2 from '../views/PC2.vue'
-import CC3 from '../views/CC3.vue'
-import PC3 from '../views/PC3.vue'
-import CC4 from '../views/CC4.vue'
-import PC4 from '../views/PC4.vue'
-import CC5 from '../views/CC5.vue'
-import PC5 from '../views/PC5.vue'
-import ProvideInject from '../views/ProvideInject.vue'
-import ProvideInjectChild from '../views/ProvideInjectChild.vue'
-import Calculator from '../views/Calculator.vue'
-import CApi from '../views/CApi.vue'
-import CApi2 from '../views/CApi2.vue'
-import CApi3 from '../views/CApi3.vue'
-import CApi4 from '../views/CApi4.vue'
-import ComAPIProvide from '../views/ComAPIProvide.vue'
-import ComAPIInject from '../views/ComAPIInject.vue'
-import Mixins from '../views/Mixins.vue'
-import CustomDirective from '../views/CustomDirective.vue'
-import Plugins from '../views/Plugins.vue'
 
 const routes = [
   {
@@ -47,147 +18,152 @@ const routes = [
   {
     path: '/db',
     name: 'DB',
-    component: DB
+    component: () => import(/* webpackChunkName: "db" */ '../views/DB.vue')
   },
   {
     path: '/dbfor',
     name: 'DBFor',
-    component: DBFor
+    component: () => import(/* webpackChunkName: "dbfor" */ '../views/DBFor.vue')
   },
   {
     path: '/dbif',
     name: 'DBIf',
-    component: DBIf
+    component: () => import(/* webpackChunkName: "dbif" */ '../views/DBIf.vue')
   },
   {
     path: '/dbon',
     name: 'DBOn',
-    component: DBOn
+    component: () => import(/* webpackChunkName: "dbon" */ '../views/DBOn.vue')
   },
   {
     path: '/computed',
     name: 'Computed',
-    component: Computed
+    component: () => import(/* webpackChunkName: "computed" */ '../views/Computed.vue')
   },
   {
     path: '/dbbindinglist2',
     name: 'DBBindingList2',
-    component: DBBindingList2
+    component: () => import(/* webpackChunkName: "dbbindinglist2" */ '../views/DBBindingList2.vue')
   },
   {
     path: '/nc',
     name: 'NC',
-    component: NC
+    component: () => import(/* webpackChunkName: "nc" */ '../views/NC.vue')
   },
   {
     path: '/cc',
     name: 'CC',
-    component: CC
+    component: () => import(/* webpackChunkName: "cc" */ '../views/CC.vue')
   },
   {
     path: '/pc',
     name: 'PC',
-    component: PC
+    component: () => import(/* webpackChunkName: "pc" */ '../views/PC.vue')
   },
   {
     path: '/cc2',
     name: 'CC2',
-    component: CC2
+    component: () => import(/* webpackChunkName: "cc2" */ '../views/CC2.vue')
   },
   {
     path: '/pc2',
     name: 'PC2',
-    component: PC2
+    component: () => import(/* webpackChunkName: "pc2" */ '../views/PC2.vue')
   },
   {
     path: '/cc3',
     name: 'CC3',
-    component: CC3
+    component: () => import(/* webpackChunkName: "cc3" */ '../views/CC3.vue')
   },
   {
     path: '/pc3',
     name: 'PC3',
-    component: PC3
+    component: () => import(/* webpackChunkName: "pc3" */ '../views/PC3.vue')
   },
   {
     path: '/cc4',
     name: 'CC4',
-    component: CC4
+    component: () => import(/* webpackChunkName: "cc4" */ '../views/CC4.vue')
   },
   {
     path: '/pc4',
     name: 'PC4',
-    component: PC4
+    component: () => import(/* webpackChunkName: "pc4" */ '../views/PC4.vue')
   },
   {
     path: '/cc5',
     name: 'CC5',
-    component: CC5
+    component: () => import(/* webpackChunkName: "cc5" */ '../views/CC5.vue')
   },
   {
     path: '/pc5',
     name: 'PC5',
-    component: PC5
+    component: () => import(/* webpackChunkName: "pc5" */ '../views/PC5.vue')
   },
   {
     path: '/provideinject',
     name: 'ProvideInject',
-    component: ProvideInject
+    component: () => import(/* webpackChunkName: "provideinject" */ '../views/ProvideInject.vue')
   },
   {
     path: '/provideinjectchild',
     name: 'ProvideInjectChild',
-    component: ProvideInjectChild
+    component: () => import(/* webpackChunkName: "provideinjectchild" */ '../views/ProvideInjectChild.vue')
   },
   {
     path: '/calculator',
     name: 'Calculator',
-    component: Calculator
+    component: () => import(/* webpackChunkName: "calculator" */ '../views/Calculator.vue')
   },
   {
     path: '/capi',
     name: 'CApi',
-    component: CApi
+    component: () => import(/* webpackChunkName: "capi" */ '../views/CApi.vue')
   },
   {
     path: '/capi2',
     name: 'CApi2',
-    component: CApi2
+    component: () => import(/* webpackChunkName: "capi2" */ '../views/CApi2.vue')
   },
   {
     path: '/capi3',
     name: 'CApi3',
-    component: CApi3
+    component: () => import(/* webpackChunkName: "capi3" */ '../views/CApi3.vue')
   },
   {
     path: '/capi4',
     name: 'CApi4',
-    component: CApi4
+    component: () => import(/* webpackChunkName: "capi4" */ '../views/CApi4.vue')
   },
   {
     path: '/comapiprovide',
     name: 'ComAPIProvide',
-    component: ComAPIProvide
+    component: () => import(/* webpackChunkName: "comapiprovide" */ '../views/ComAPIProvide.vue')
   },
   {
     path: '/comapiinject',
     name: 'ComAPIInject',
-    component: ComAPIInject
+    component: () => import(/* webpackChunkName: "comapiinject" */ '../views/ComAPIInject.vue')
   },
   {
     path: '/mixins',
     name: 'Mixins',
-    component: Mixins
+    component: () => import(/* webpackChunkName: "mixins" */ '../views/Mixins.vue')
   },
   {
     path: '/customdirective',
     name: 'CustomDirective',
-    component: CustomDirective
+    component: () => import(/* webpackChunkName: "customdirective" */ '../views/CustomDirective.vue')
   },
   {
     path: '/plugins',
     name: 'Plugins',
-    component: Plugins
+    component: () => import(/* webpackChunkName: "plugins" */ '../views/Plugins.vue')
+  },
+  {
+    path: '/storeaccess',
+    name: 'StoreAccess',
+    component: () => import(/* webpackChunkName: "storeaccess" */ '../views/StoreAccess.vue')
   }
 ]
 

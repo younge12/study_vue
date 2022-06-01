@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[450],{7585:function(e,t,n){n.r(t),n.d(t,{default:function(){return r}});var u={inject:["itemLength"],mounted(){alert(this.itemLength)}};const c=u;var r=c}}]);
+//# sourceMappingURL=provideinjectchild.a750e0cb.js.map

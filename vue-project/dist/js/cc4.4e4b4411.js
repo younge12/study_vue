@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[212],{2503:function(e,t,n){n.r(t),n.d(t,{default:function(){return o}});var r=n(3396),u=n(7139);function s(e,t,n,s,a,c){return(0,r.wg)(),(0,r.iD)("h1",null,(0,u.zw)(a.msg),1)}var a={data(){return{msg:"자식 컴포넌트로부터 보내는 메세지"}},mounted(){this.$emit("send-message",this.msg)}},c=n(89);const i=(0,c.Z)(a,[["render",s]]);var o=i}}]);
+//# sourceMappingURL=cc4.4e4b4411.js.map

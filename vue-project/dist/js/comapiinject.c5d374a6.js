@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[884],{1066:function(t,e,n){n.r(e),n.d(e,{default:function(){return f}});var r=n(3396),u=n(7139);function c(t,e,n,c,i,l){return(0,r.wg)(),(0,r.iD)("h1",null,(0,u.zw)(c.title),1)}var i={setup(){const t=(0,r.f3)("title");return{title:t}}},l=n(89);const s=(0,l.Z)(i,[["render",c]]);var f=s}}]);
+//# sourceMappingURL=comapiinject.c5d374a6.js.map

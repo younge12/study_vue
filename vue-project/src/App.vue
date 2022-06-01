@@ -29,7 +29,8 @@
     <router-link to="/comapiinject">Composition API Inject</router-link> |
     <router-link to="/mixins">Mixins</router-link>|
     <router-link to="/customdirective">Custom Directive</router-link>|
-    <router-link to="/plugins">Plugins</router-link>
+    <router-link to="/plugins">Plugins</router-link>|
+    <router-link to="/storeaccess">StoreAccess</router-link>
   </nav>
   <router-view/>
 </template>
